@@ -4,6 +4,7 @@ import com.nivelics.cursosms.entity.Curso;
 import com.nivelics.cursosms.service.FindByIdCursoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -15,7 +16,7 @@ public class FindByIdCursoController {
     private FindByIdCursoService findByIdCursoService;
 
     @GetMapping("/{id}")
-    public Curso findBiId(int id){
+    public Curso findBiId(@PathVariable int id){
         return findByIdCursoService.findById(id);
     }
 }
