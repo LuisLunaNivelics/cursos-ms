@@ -1,4 +1,4 @@
-package com.nivelics.estudiantesms.errorhandler;
+package com.nivelics.cursosms.errorhandler;
 
 import com.google.gson.Gson;
 import org.springframework.http.HttpHeaders;
@@ -11,7 +11,7 @@ import org.springframework.web.context.request.WebRequest;
 import java.util.Date;
 
 /**
- * @author Ferney.Estupinan
+ * @author Luis.Luna
  * Date: 19/11/2021
  */
 @ControllerAdvice

@@ -1,4 +1,4 @@
-package com.nivelics.estudiantesms.errorhandler;
+package com.nivelics.cursosms.errorhandler;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -6,7 +6,7 @@ import lombok.Data;
 import java.util.Date;
 
 /**
- * @author Ferney.Estupinan
+ * @author Luis Luna
  * Date: 19/11/2021
  */
 @Data
