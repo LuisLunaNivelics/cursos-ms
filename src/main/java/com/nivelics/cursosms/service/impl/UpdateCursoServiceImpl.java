@@ -7,7 +7,9 @@ import com.nivelics.cursosms.repository.CursoRepository;
 import com.nivelics.cursosms.service.FindByIdCursoService;
 import com.nivelics.cursosms.service.UpdateCursoService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+@Service
 public class UpdateCursoServiceImpl implements UpdateCursoService {
 
     @Autowired

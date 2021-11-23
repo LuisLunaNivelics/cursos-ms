@@ -5,6 +5,8 @@ import com.nivelics.cursosms.service.UpdateCursoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
+
 @RestController
 @RequestMapping("/api/v1/cursos/update")
 public class UpdateCursoController {
@@ -13,7 +15,7 @@ public class UpdateCursoController {
     private UpdateCursoService updateCursoService;
 
     @PutMapping("/{id}")
-    public CursoDto update(@PathVariable int id, @RequestBody CursoDto cursoDto){
+    public CursoDto update(@Valid @PathVariable int id, @RequestBody CursoDto cursoDto){
         return updateCursoService.update(id, cursoDto);
     }
 }
