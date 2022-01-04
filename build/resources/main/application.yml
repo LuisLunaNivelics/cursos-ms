@@ -1,0 +1,25 @@
+server:
+  port: 8083
+  servlet:
+    context-path: /cursos
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/curso
+    username: root
+    password: 12345
+    driver-class-name: com.mysql.jdbc.Driver
+  security:
+    user:
+      name: luis
+      password: 1234
+eureka:
+  instance:
+    instance-id: cursos-ms
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
