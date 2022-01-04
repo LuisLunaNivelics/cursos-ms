@@ -35,9 +35,5 @@ Lsrc/main/java/com/nivelics/cursosms/service/impl/CreateCursoServiceImpl.java,6
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 r
 Bsrc/main/java/com/nivelics/cursosms/errorhandler/ErrorMessage.java,7\3\7387e17715e8ed88b1baa4acbde811c832361369
-}
-Msrc/test/java/com/nivelics/cursosms/controller/CreateCursoControllerTest.java,a\c\acf876abb4b4b12d8d30005119ce6d2d0c8bbd12
 {
 Ksrc/main/java/com/nivelics/cursosms/controller/FindByIdCursoController.java,0\a\0ab8cd51f2c7f3d442f28d131e6f747be50cc751
-
-Osrc/test/java/com/nivelics/cursosms/controller/FindByIdCursoControllerTest.java,f\e\fe19e2911d27e9547cecef0b90abe52720a51ce1
