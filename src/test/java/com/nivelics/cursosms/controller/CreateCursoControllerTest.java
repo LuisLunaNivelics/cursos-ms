@@ -22,7 +22,6 @@ import static org.mockito.Mockito.when;
 import static org.junit.jupiter.api.Assertions.*;
 
 @ExtendWith(MockitoExtension.class)
-@RunWith(JUnitPlatform.class)
 @AutoConfigureMockMvc
 class CreateCursoControllerTest {
 
